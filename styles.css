@@ -26,29 +26,16 @@ body {
 }
 /** footers **/
 
-.footer {
+footer {
     background-color: var(--primary-color);
-    padding: 1.5rem 1rem;
+    padding: 0rem 0rem;
     text-align: center;
-    color: white;
-    border-top-right-radius: 1rem;
+    color: black;
+    border-top-left-radius: 8rem;
+    border-bottom-right-radius: 8rem;
 }
 
-.footer .link {
-    color: white
-}
-
-.footer .footer-header {
-    font-weight: bold;
-    font-size: large;
-}
-
-.footer ul {
-    padding-inline-start: 0px;
-}
-
-.footer .list-item-inline:hover {
-    font-weight: bold;
-    background: rgba(232, 235, 233, 0.7);
-    border-radius: 6px;
+footer p {
+    max-width: 600px;
+    margin: auto;
 }
